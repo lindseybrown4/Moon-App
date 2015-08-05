@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="moonApp">
+  <head>
+    <meta charset="UTF-8">
+    <title> Lunar Data </title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">  
+  </head>
+  <header>
+      <div class="main-container">
+
+        <div class="menu">
+            <li><a href="/#/views/home"> Home</a></li>
+            <li><a href="/#/views/phase"> Lunar Data</a></li>
+            <li><a href="/#/views/birthday">Birthday</a></li>
+            <br>
+        </div>
+      </div>    
+  </header>
+    <body>
+     
+      <video id="bgvid" autoplay>
+          <source src="./moon_clip.mp4" type="video/mp4"/>
+      </video> 
+
+        <!-- routing -->
+        <ng-view></ng-view>
+     
+        <!-- Angular -->
+         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+        <!-- Angular Route -->
+        <script  src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.js"></script>
+        <!-- JavaScript Pages -->
+        <script src="./js/app.js"></script>
+        <script src="./js/controllers/phaseCtrl.js"></script>
+        <script src="./js/controllers/birthdayCtrl.js"></script>
+        <script src="./js/services/moonService.js"></script>
+        <script src="./js/services/phaseService.js"></script>
+        <script src="./js/directives/phaseDirective.js"></script>
+    </body>
+  <footer>
+  </footer>
+</html>
