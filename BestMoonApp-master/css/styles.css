@@ -45,7 +45,7 @@ body {
 .wrapperSign h1 {
 
   text-align: center;
-  color: #33CCFF;
+  color: #0066FF;
   margin: 0 auto;
   width: 70%;
   font-family: "Open Sans", sans-serif;
@@ -83,7 +83,22 @@ padding: 10px;
   color: #33CCFF;
 }
 
+.resultsSign li {
+
+  padding: 10px;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: px;
+  color: #33CCFF;
+}
+
 .results span {
+
+  color: #0066FF;
+
+}
+
+.resultsSign span {
 
   color: #0066FF;
 
