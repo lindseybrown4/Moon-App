@@ -1,7 +1,7 @@
 app.service('signService', function() {
 
 
-this.moonSign = [
+var moonSign = [
 	{
 		image:"http://www.astrology-zodiac-signs.com/zodiac-signs/images/aquarius.jpg",
 		sign:"Aquarius", 
@@ -184,5 +184,7 @@ Freedom is their greatest treasure, because only then they can freely travel and
 
 ];
 
+this.getSign = function() {
+	return data; 
 }); 
 	
